@@ -1,0 +1,33 @@
+Mulai
+  Baca nama, hari, studio, jumlah
+  
+  jika hari = "biasa" maka
+	harga_tiket = 35000
+  jika tidak, Jika hari = "akhir pekan" maka
+	harga_tiket = 50000
+  jika tidak
+	tampilkan "jenis hari tidak valid"
+	selesai
+  
+  jika studio = "regular" maka
+	tambahan = 0
+  jika tidak, jika studio = "vip" maka
+	tambahan = 25000
+  jika tidak 
+	tampilkan "jenis studio tidak valid"
+	selesai
+
+  total = (harga_tiket + tambahanan) * jumlah
+
+  jika jumlah >= 5 maka
+	diskon = total * 10/100
+  jika tidak 
+ 	diskon = 0
+
+  total_bayar = total - diskon
+
+
+  tampilkan nama, hari, studio, jumlah, Harga_tiket, tambahan, total, 
+  diskon, total bayar
+
+  selesai
